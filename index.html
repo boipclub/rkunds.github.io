@@ -38,6 +38,17 @@
       z-index: 999999;
     }
 
+    .flier2>* {
+      animation: fly 50s linear infinite;
+      pointer-events: none !important;
+      top: 30%;
+      left: 50%;
+      transform: translateX(-130%) translateY(-10%) rotateZ(0);
+      position: fixed;
+      animation-delay: 1s;
+      z-index: 999999;
+    }
+
     @keyframes fly {
 
       98.001%,
@@ -100,6 +111,9 @@
 
   <div class="flier">
     <img src="https://c7.uihere.com/files/186/254/393/finding-nemo-marlin-animation-pixar-animation.jpg">
+  </div>
+  <div class = "flier2"> 
+    <img src="https://i.meow.cx/vMOIC.png">
   </div>
 </body>
 
